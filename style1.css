@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+   
+  
+}
+.login{
+    border: 1px solid;
+    padding-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.gender{
+    border: 1px solid;
+    padding-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.select{
+    border: 1px solid;
+    padding-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#submit{
+    margin-right: 5px;
+}
+.section{
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.login #uname{
+    padding-left: 4px;
+}
+.login #pswd{
+    padding-left: 4px;
+}
+@media(max-width:768px){
+    .container{
+        font-size: 150%;
+    }
+}
+@media(min-width:768px){
+    .container{
+        font-size: 100%;
+    }
+}
